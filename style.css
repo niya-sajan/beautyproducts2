@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fdf3f3;
+}
+
+/* Navbar */
+nav {
+    background-color: #ff8fb1;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffe6ec;
+}
+
+/* Banner */
+.banner {
+    background: url("https://images.pexels.com/photos/3762883/pexels-photo-3762883.jpeg");
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* Section */
+.section {
+    padding: 40px;
+    text-align: center;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    background: white;
+    width: 250px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px gray;
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    background: #ff8fb1;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #ff6f9c;
+}
